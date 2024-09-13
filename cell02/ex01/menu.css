@@ -1,0 +1,36 @@
+.sncf{
+    position: relative;
+}
+
+.sncfBtn{
+    background-color: #FFBE98;
+    width: 150px;
+    height: 50px;
+    font-weight:bold;
+    border: none;
+}
+
+/*this is style attributes for dropdown menu content*/
+.sncfContent{
+    display: none;
+    background-color: #E1D7C6;
+    box-shadow: 0px 8px 16px 0px;
+    min-width: 150px;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+a{
+    font-family: monospace;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+}
+
+/*Show list when hover the button*/
+.sncf:hover .sncfContent {display: block;}
+
+.sncfContent a:hover {background-color: #AAB396;}
