@@ -1,0 +1,42 @@
+.parallax{
+    background-image: url("pic1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:table;
+}
+
+.section2{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:table;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section3{
+    background-image: url("pic2.jpg");
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:table;
+}
+
